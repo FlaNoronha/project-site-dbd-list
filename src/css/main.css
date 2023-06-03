@@ -1,0 +1,362 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  max-width: 1440px;
+  color: hsl(0, 0%, 100%);
+  align-items: center;
+}
+
+body.killer-mode {
+  color: rgb(172, 100, 7);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  align-items: center;
+}
+
+body .logogit {
+  width: 70px;
+  transition: 0.2s ease-in-out;
+}
+
+header .logo {
+  width: 230px;
+  transition: 0.2s ease-in-out;
+}
+
+header .button {
+  width: 60px;
+  transition: 0.2s ease-in-out;
+}
+
+
+header #button-change-theme {
+  background: none;
+  border: none;
+}
+
+body .logogit:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+} 
+
+header .logo:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+header .button:hover {
+  transform: scale(1.07);
+  cursor: pointer;
+}
+
+main {
+  padding: 30px;
+}
+
+main .list-dbd {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 26px;
+}
+
+
+.decoration {
+  width: 500px;
+  margin-left: 310px;
+}
+
+main .cart-dbd, .cart-dbd33, .cart-dbd34, .cart-dbd35, .cart-dbd36, .cart-dbd37 {
+  background-color: rgba(51, 51, 51, 0.5);
+  width: 250px;
+  height: 420px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  gap: 10px;
+  border-radius: 15px;
+  transition: 0.2s ease-in-out;
+}
+
+.killer-mode .cart-dbd, .cart-dbd33, .cart-dbd34, .cart-dbd35, .cart-dbd36, .cart-dbd37 {
+  background-color: rgba(51, 51, 51, 0.5);
+  width: 250px;
+  height: 420px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  transition: 0.2s ease-in-out;
+}
+
+main .cart-dbd:hover,
+.cart-dbd33:hover,
+.cart-dbd34:hover,
+.cart-dbd35:hover,
+.cart-dbd36:hover,
+.cart-dbd37:hover {
+  background-color: rgba(80, 79, 79, 0.432);
+  transform: scale(1.05);
+}
+
+.killer-mode .cart-dbd {
+  background-color: rgba(29, 1, 1, 0.479);
+}
+
+.killer-mode .cart.dbd:hover {
+  background-color: rgba(105, 47, 47, 0.5);
+}
+
+/*Onde fica os nomes dos personagens*/
+main .cart-dbd
+.names1,
+.names2,
+.names3,
+.names4,
+.names5,
+.names6,
+.names7,
+.names8,
+.names9,
+.names10,
+.names11,
+.names12,
+.names13,
+.names14,
+.names15,
+.names16,
+.names17,
+.names18,
+.names19,
+.names20,
+.names21,
+.names22,
+.names23,
+.names24,
+.names25,
+.names26,
+.names27,
+.names28,
+.names29,
+.names30,
+.names31,
+.names32,
+.names33,
+.names34,
+.names35,
+.names35,
+.names36,
+.names37 {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #818181;
+  border-radius: 10px;
+}
+/*O nome dos personagens*/
+main .cart-dbd .names1,
+.names2,
+.names3,
+.names4,
+.names5,
+.names6,
+.names7,
+.names8,
+.names9,
+.names10,
+.names11,
+.names12,
+.names13,
+.names14,
+.names15,
+.names16,
+.names17,
+.names18,
+.names19,
+.names20,
+.names21,
+.names22,
+.names23,
+.names24,
+.names25,
+.names26,
+.names27,
+.names28,
+.names29,
+.names30,
+.names31,
+.names32,
+.names33,
+.names34,
+.names35,
+.names36,
+.names37,
+span {
+  padding: 5px;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+main .cart-dbd,
+.char1,
+.char2,
+.char3,
+.char4,
+.char5,
+.char6,
+.char7,
+.char8,
+.char9,
+.char10,
+.char11,
+.char12,
+.char13,
+.char14,
+.char15,
+.char16,
+.names17,
+.names18,
+.names19,
+.names20,
+.names21,
+.char22,
+.char23,
+.char24,
+.char25,
+.char26,
+.char27,
+.char28,
+.char29,
+.char30,
+.char31,
+.char32 {
+  border-radius: 10px;
+}
+
+main .description1,
+.description2,
+.description3,
+.description4,
+.description5,
+.description6,
+.description7,
+.description8,
+.description9,
+.description10,
+.description11,
+.description12,
+.description13,
+.description14,
+.description15,
+.description16,
+.description17,
+.description18,
+.description19,
+.description20,
+.description21,
+.description22,
+.description23,
+.description24,
+.description25,
+.description26,
+.description27,
+.description28,
+.description29,
+.description30,
+.description31,
+.description32,
+.description33,
+.description34,
+.description35,
+.description36,
+.description37 {
+  max-height: 200px;
+  overflow-y: scroll;
+  font-size: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../images/brackground_map1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 5;
+  overflow-x: scroll;
+
+  animation-name: animate;
+  animation-direction: alternate-reverse;
+  animation-duration: 90s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animate {
+  0% {
+    background-image: url(../images/brackground_map1.png);
+  }
+  6% {
+    background-image: url(../images/brackground_map2.png);
+  }
+  12% {
+    background-image: url(../images/brackground_map3.png);
+  }
+  18% {
+    background-image: url(../images/brackground_map4.png);
+  }
+  24% {
+    background-image: url(../images/brackground_map5.png);
+  }
+  30% {
+    background-image: url(../images/brackground_map7.png);
+  }
+  36% {
+    background-image: url(../images/brackground_map8.png);
+  }
+  42% {
+    background-image: url(../images/brackground_map9.png);
+  }
+  48% {
+    background-image: url(../images/brackground_map10.png);
+  }
+  54% {
+    background-image: url(../images/brackground_map12.png);
+  }
+  60% {
+    background-image: url(../images/brackground_map13.png);
+  }
+  66% {
+    background-image: url(../images/brackground_map14.png);
+  }
+  72% {
+    background-image: url(../images/brackground_map15.png);
+  }
+  78% {
+    background-image: url(../images/brackground_map16.png);
+  }
+  84% {
+    background-image: url(../images/brackground_map17.png);
+  }
+  90% {
+    background-image: url(../images/brackground_map18.png);
+  }
+  96% {
+    background-image: url(../images/brackground_map19.png);
+  }
+  100% {
+    background-image: url(../images/brackground_map20.png);
+  }
+}
